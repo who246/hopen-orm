@@ -1,6 +1,7 @@
 # hopen-orm
-orm开发框架
+##orm开发框架
 
+```Go
 package orm
 
 import (
@@ -57,3 +58,5 @@ func Test_save(t *testing.T) {
 	obj := &MyModel{Id: 5, CreateTime: "2015-10-17 17:12:01", ModifyTime: "2015-10-17 17:12:01", Name: "testttt", Nums: 2}
 	o.Save(sql, obj)
 }
+
+```
